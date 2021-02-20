@@ -1,0 +1,135 @@
+{
+    "default":[
+        0,
+        0,
+        "",
+        "",
+        0
+    ],
+    "mimic": [
+        0,
+        1,
+        "Replies with everything written after the initial command.",
+        "{0.sd.prefix}mimic <thing to reply with>"
+    ],
+    "help": [
+        0,
+        1,
+        "Gives information about the target command.",
+        "{0.sd.prefix}help <target command>"
+    ],
+    "stanch": [
+        "manage_server",
+        0,
+        "Used for setting variables of a server. Named this way because set sounds wrong.",
+        "{0.sd.prefix}stanch <variable> [parameters]"
+    ],
+    "commands": [
+        0,
+        0,
+        "Replies with every command the bot has, sorted by permission.",
+        "{0.sd.prefix}commands"
+    ],
+    "insult": [
+        0,
+        1,
+        "Insults a target user.",
+        "{0.sd.prefix}insult <target user>"
+    ],
+    "objectify": [
+        0,
+        1,
+        "Adds an insult to the insult list, no matter how shitty or inappropriate.",
+        "{0.sd.prefix}objectify <new insult>"
+    ],
+    "unobjectify": [
+        0,
+        1,
+        "Removes an insult from the insult list, I guess.",
+        "{0.sd.prefix}unobjectify <index/insult to remove>"
+    ],
+    "kill": [
+        0,
+        1,
+        "Kills a target user with a HiLaRiOuS rAnDoM eVeNt",
+        "{0.sd.prefix}kill <target user>"
+    ],
+    "stats": [
+        0,
+        0,
+        "Shows the stats of either you or a target user.",
+        "{0.sd.prefix}stats [target user]"
+    ],
+    "stimulate": [
+        0,
+        0,
+        "Give yourself a shock for bonus {0.sd.currency_name}.",
+        "{0.sd.prefix}stimulate"
+    ],
+    "change": [
+        0,
+        0,
+        "A command for a bunch of user customization commands.",
+        "{0.sd.prefix}change <variable to change>"
+    ],
+    "objectirray": [
+        0,
+        0,
+        "Lists every insult for the current server.",
+        "{0.sd.prefix}objectirray"
+    ],
+    "save": [
+        "owner only",
+        0,
+        "A funny command that's here because I'm a shit programmer apparently.",
+        "{0.sd.prefix}save_data_early_because_I_cant_wait_30_seconds_or_it_has_bugged_out"
+    ],
+    "rawsend": [
+        "owner only",
+        0,
+        "A not so funny command used for debugging.",
+        "why do i write these"
+    ],
+    "cash": [
+        0,
+        0,
+        "Tells you how much money you have. Less spammy than {msg.sd.prefix}stats",
+        "..."
+    ],
+    "cache": [
+        "manage_guild",
+        0,
+        "Caches a channel.",
+        "..."
+    ],
+    "simulate": [
+        0,
+        0,
+        "Simulates a user. Requires a level of cache for the user.",
+        "{0.sd.prefix}simulate [user if not yourself] [channel only]"
+    ],
+    "fullCache": [
+        "owner only",
+        0,
+        "Fully caches a channel. Can take way too long for most commands.",
+        "..."
+    ],
+    "clearCache": [
+        "owner only",
+        0,
+        "Removes all caches for testing purposes.",
+        "..."
+    ],
+    "specializeThisOne": [
+        "owner only",
+        0,
+        "Make a channel special!",
+        "..."
+    ],
+    "flip": [
+        0,
+        2,
+        "Bet and flip a coin! Test your luck -- but beware of sides.",
+        "{0.sd.prefix}flip <side> <bet>"
+    ]
+}
